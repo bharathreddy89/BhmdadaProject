@@ -7,3 +7,17 @@ packages:
   gitUrl: https://github.com/bharathreddy89/BhmdadaProject
   gitUsername: bharathreddy89
   gitBranch: main
+- name: OpenWeatherClient
+  gitServerName: bhmmekacicd
+  gitUrl: https://github.com/rahuldemocenter
+  gitUsername: bharathreddy89
+  gitBranch: main
+services:
+- serviceName: project.bhmdada.integrations:helloWorld
+  packages:
+  - name: BhmdadaProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
