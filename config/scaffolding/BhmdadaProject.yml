@@ -24,6 +24,8 @@ services:
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
+  - name: BHMonpremise
+    version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -41,6 +43,14 @@ services:
   - name: WmPublic
     version: 11.0.0.0.804
 - serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: bhmmath:addInt
+  packages:
+  - name: BHMonpremise
+    version: "1.0"
+- serviceName: pub.math:addInts
   packages:
   - name: WmPublic
     version: 11.0.0.0.804

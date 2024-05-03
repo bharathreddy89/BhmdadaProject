@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vikash</value>
-    <value name="lastModifiedDate">1714723745133</value>
+    <value name="lastModifiedDate">1714723774828</value>
     <value name="displayName">helloWorld</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -115,6 +115,7 @@
         <value name="nodePathNew">2</value>
         <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">3</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
