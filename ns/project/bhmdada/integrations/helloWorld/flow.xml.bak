@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
