@@ -12,6 +12,11 @@ packages:
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: bharathreddy89
   gitBranch: main
+- name: BHMonpremise
+  gitServerName: bhmmekacicd
+  gitUrl: https://github.com/bharathreddy89
+  gitUsername: bharathreddy89
+  gitBranch: main
 services:
 - serviceName: project.bhmdada.integrations:helloWorld
   packages:
