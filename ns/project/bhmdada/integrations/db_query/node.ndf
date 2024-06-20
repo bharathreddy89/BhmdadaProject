@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">bharath</value>
-    <value name="lastModifiedDate">1718875931526</value>
+    <value name="lastModifiedDate">1718876488747</value>
     <value name="displayName">db_query</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -114,12 +114,12 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_2</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionName">bhmdatabaseconn</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.bhmdada.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionNSName">project.bhmdada.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:bhmdatabaseconn</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
