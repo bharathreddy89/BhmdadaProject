@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">bharath</value>
-    <value name="lastModifiedDate">1718875849303</value>
+    <value name="lastModifiedDate">1718875916154</value>
     <value name="displayName">db_query</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -57,6 +57,25 @@
     </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/0/0"/>
+      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -103,6 +122,9 @@
         <value name="connectionNSName">project.bhmdada.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
     </record>
   </record>
