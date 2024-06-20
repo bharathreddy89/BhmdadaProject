@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">bharath</value>
-    <value name="lastModifiedDate">1718876488747</value>
+    <value name="lastModifiedDate">1718876671718</value>
     <value name="displayName">db_query</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -73,6 +73,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <null name="/0/0"/>
       <record name="/1" javaclass="com.wm.util.Values">
@@ -99,7 +100,7 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
@@ -126,6 +127,7 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <number name="ui_step_index" type="Long">2</number>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">1</value>
       </record>
     </record>
   </record>
