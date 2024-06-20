@@ -8,11 +8,13 @@ packages:
   gitUsername: bharathreddy89
   gitBranch: main
 - name: OpenWeatherClient
+  version: "1.0"
   gitServerName: bhmmekacicd
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: bharathreddy89
   gitBranch: main
 - name: BHMonpremise
+  version: "1.0"
   gitServerName: bhmmekacicd
   gitUrl: https://github.com/bharathreddy89
   gitUsername: bharathreddy89
@@ -54,3 +56,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.bhmdada.integrations:db_query
+  packages:
+  - name: BhmdadaProject
+    version: "1.0"
+  - name: BHMonpremise
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
