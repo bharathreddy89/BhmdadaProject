@@ -107,6 +107,14 @@ services:
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
+- serviceName: project.bhmdada.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:tr12
+  packages:
+  - name: BhmdadaProject
+    version: "1.0"
+  - name: BHMonpremise
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
 configurationVariables:
   ? artConnection.BhmdadaProject.project.bhmdada.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
   : "false"
